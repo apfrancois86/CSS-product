@@ -10,6 +10,10 @@ body {
   background-color: rgb(253,186,0);
   color: rgb(160,46,14);
 }
+
+.abril {
+  font-family: 'Abril Fatface', cursive;
+}
 #nav {
   z-index: 20;
 }
