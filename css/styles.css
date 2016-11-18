@@ -187,6 +187,11 @@ td {
 /*End Styling for Gallery*/
 
 /*Start Styling for Contact*/
+.emptyDiv {
+  border-top: 3px solid rgb(160,46,14);
+  margin-top: 2.5%;
+  width: 100%;
+}
 .contactContainer{
   width: 20%;
   padding: 1%;
@@ -210,11 +215,17 @@ td {
 /*End Styling for Contact*/
 
 /*Start Styling for Order-form*/
+.emptyDiv {
+  border-top: 3px solid rgb(160,46,14);
+  margin-top: 2.5%;
+  width: 100%;
+}
 .orderContainer {
   width: 50%;
   margin-top: 10%;
   margin-left: 5%;
   border: 2px solid #000;
+  position: relative;
 }
 
 li {
@@ -230,4 +241,23 @@ li {
 
 .divider {
   margin: 3%;
+}
+
+
+.button {
+  box-shadow: 0 0 0 2px rgb(142, 142, 142), 0 0 0 6px rgb(167, 167, 167), 0 0 0 7px rgb(193, 193, 193), 0 0 0 11px rgb(203, 203, 203), 0 0 0 13px rgb(255, 255, 255), 0 0 0 15px rgb(102, 102, 102), 0 0 0 16px;
+  border-radius: 7px;
+  background: linear-gradient(rgb(219, 219, 219), rgb(173, 173, 173));
+  text-decoration: none;
+  padding: 7px;
+  font-size: 1em;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: rgb(85, 85, 85);
+  /*margin-top: 3%;
+  margin bottom: 3%;*/
+  position: absolute;
+  top: 65%;
+  left: 70%;
+
 }
