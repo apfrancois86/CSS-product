@@ -20,6 +20,10 @@ body {
 a {
   color: inherit;
 }
+#main {
+  border-top: 5px solid rgb(160,46,14);
+  border-bottom: 5px solid rgb(160,46,14);
+}
 #elpaso {
   width: 1.5em;
 }
@@ -35,7 +39,6 @@ a {
 }
 .emergency {
   padding-top: 1%;
-  /*padding-left: 10px;*/
   font-weight: bold;
   font-size: 3.2em;;
 }
@@ -47,7 +50,6 @@ a {
   width: 100%;
   margin: 0;
   position: relative;
-  /*border: 3px solid black;*/
 }
 
 #top img {
@@ -70,4 +72,122 @@ a {
 
 .bolder {
   font-weight: bolder;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.wrap {
+  padding: 1%;
+  margin: 2%;
+  float: left;
+  width:46%;
+}
+
+
+/*Start Styling for Nutrition Table*/
+table {
+  background-color: white;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0;
+  text-align: left;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-decoration: underline;
+}
+.nutriCaption {
+  font-size: 16px;
+  text-align: left;
+  padding-bottom: 4px;
+  background-color: white;
+}
+table {
+  width: 348px;
+  padding: 0px;
+  border-spacing: 0px;
+}
+th {
+  border-top: 10px solid black;
+  padding-top: 12px;
+  font-size: 15px;
+  font-weight:500;
+  padding-bottom: 6px;
+}
+td {
+  padding-top: 8px;
+  border-top: 1px solid black;
+  padding-bottom: 6px;
+}
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.bold {
+  font-weight: 600;
+}
+.small {
+  font-size: 14px;
+}
+.daily {
+  padding-top: 3px;
+  border-top: 6px solid black;
+}
+
+.vitamin {
+  border-top: 10px solid black;
+}
+
+.none {
+  border-top: 0px;
+  padding: 0px;
+}
+.below {
+  border-bottom: 1px;
+  padding: 0px;
+}
+/*End Styling for Nutrition Table*/
+
+/*Start Styling for Gallery*/
+
+.galleryContainer {
+  margin-top: 0%;
+  display: inline-block;
+  width: 100%;
+  border-top: 3px solid rgb(160,46,14);
+
+}
+.galleryContainer div {
+  float: left;
+  width: 20%;
+  margin: 2%;
+  padding: 0;
+  position: relative
+}
+
+.galleryContainer img {
+  height: 200px;
+  width: 300px;
+}
+
+#hidden {
+  display: none;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+.galleryContainer:hover::after {
+  position: absolute;
+  content: "TACOS TACOS TACOS!!!!";
+  top: 40%;
+  left: 45%;
+  font-size: 2.5em;
 }
