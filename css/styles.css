@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+#nav {
+  position: relative;
+  margin-right: 10px;
+}
+#nav li {
+  list-style-type: none;
+}
+a {
+  color: inherit;
+}
+.float-right:hover{
+  text-decoration: underline;
+  color: white;
+}
+.float-right {
+  float:right;
+  display: inline-block;
+  font-size: 14pt;
+  padding: 30px 10px 10px 10px;
+}
+.number {
+  padding-top: 17px;
+  padding-right: 10px;
+  font-weight: bold;
+  font-size: 40pt;
+  font-family: GameOfThrones;
+}
+#top img {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid black;
+}
