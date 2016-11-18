@@ -7,8 +7,11 @@
 }
 body {
   margin: 0;
+  background-color: rgb(253,186,0);
+  color: rgb(160,46,14);
 }
 #nav {
+  z-index: 20;
 }
 
 #nav li {
@@ -17,15 +20,19 @@ body {
 a {
   color: inherit;
 }
+#elpaso {
+  width: 1.5em;
+}
 .float-right {
   float:right;
   display: inline-block;
-  font-size: 1.2em;
-  padding: 5% 3% 1% 1%;
+  font-size: 1.1em;
+  padding: 0% 3% 1% 1%;
 }
 .float-right:hover{
   text-decoration: underline;
-  color: blue;
+  color: #FFF;
+  font-weight: bolder;
 }
 
 .number {
@@ -37,9 +44,28 @@ a {
 #top {
   width: 100%;
   margin: 0;
+  position: relative;
   /*border: 3px solid black;*/
 }
 
 #top img {
   width: 100%;
+  opacity: 0.7;
+}
+
+.quote {
+  position: absolute;
+  bottom: 2%;
+  left: 1%;
+  font-size: 1.3em;
+  box-shadow: 5px 5px 15px rgba(255,255,255, 0.6);
+  border: 5px inset black;
+  border-radius: 15px;
+  padding: 0.5%;
+  background-color:rgb(160,46,14);
+  color: rgb(253,186,0);
+}
+
+.bolder {
+  font-weight: bolder;
 }
