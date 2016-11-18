@@ -30,16 +30,18 @@ a {
   padding: 0% 3% 1% 1%;
 }
 .float-right:hover{
-  text-decoration: underline;
   color: #FFF;
   font-weight: bolder;
 }
-
-.number {
-  padding-top: 17px;
-  padding-right: 10px;
+.emergency {
+  padding-top: 1%;
+  /*padding-left: 10px;*/
   font-weight: bold;
-  font-size: 40pt;
+  font-size: 3.2em;;
+}
+.slogan {
+  font-family: cursive;
+  font-size: 1.2em;
 }
 #top {
   width: 100%;
