@@ -9,34 +9,37 @@ body {
   margin: 0;
 }
 #nav {
-  position: relative;
-  margin-right: 10px;
 }
+
 #nav li {
   list-style-type: none;
 }
 a {
   color: inherit;
 }
-.float-right:hover{
-  text-decoration: underline;
-  color: white;
-}
 .float-right {
   float:right;
   display: inline-block;
-  font-size: 14pt;
-  padding: 30px 10px 10px 10px;
+  font-size: 1.2em;
+  padding: 5% 3% 1% 1%;
 }
+.float-right:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
 .number {
   padding-top: 17px;
   padding-right: 10px;
   font-weight: bold;
   font-size: 40pt;
 }
+#top {
+  width: 100%;
+  margin: 0;
+  /*border: 3px solid black;*/
+}
+
 #top img {
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  border: 3px solid black;
+  width: 100%;
 }
