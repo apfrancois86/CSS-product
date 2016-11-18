@@ -221,9 +221,11 @@ td {
   width: 100%;
 }
 .orderContainer {
+  display: inline-block;
   width: 550px;
   margin-top: 5%;
-  margin-left: 5%;
+  margin-left: 20%;
+  margin-right: auto;
   border: 2px solid #000;
   position: relative;
   background-color: rgb(160,46,14);
@@ -263,3 +265,12 @@ td {
   top: 65%;
   left: 65%;
 }
+#obama {
+  position: relative;
+  top: 10%;
+  left:20%;
+}
+#obama img {
+  width: 550px;
+}
+/*End Styling for Order-form*/
